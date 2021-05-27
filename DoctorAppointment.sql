@@ -7,7 +7,6 @@ SET time_zone = "+6:00";
 -- Database: `registration`
 --
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `admin`
@@ -18,7 +17,6 @@ CREATE TABLE `admin` (
   `adminpassword` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `bookapp`
@@ -32,7 +30,6 @@ CREATE TABLE `bookapp` (
   `docID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `description`
@@ -47,7 +44,6 @@ CREATE TABLE `description` (
   `doctorIDdesc` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `doctor`
@@ -63,7 +59,6 @@ CREATE TABLE `doctor` (
   `categorey` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `donor`
@@ -79,7 +74,6 @@ CREATE TABLE `donor` (
   `organ` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `feedback`
@@ -90,7 +84,6 @@ CREATE TABLE `feedback` (
   `feedback` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `patients`
