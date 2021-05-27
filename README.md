@@ -1,2 +1,2 @@
 # Doctor-Appointment-RDBMS-Query
-Doctor Appointment RDBMS Query by using SQL.
+Relational database management system Query for Doctor Appointment by using SQL.
