@@ -7,8 +7,6 @@ SET time_zone = "+6:00";
 -- Database: `registration`
 --
 
-
---
 -- Table structure for table `admin`
 --
 
@@ -16,7 +14,6 @@ CREATE TABLE `admin` (
   `AdminID` varchar(11) NOT NULL,
   `adminpassword` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
 
 --
 -- Table structure for table `bookapp`
@@ -30,7 +27,6 @@ CREATE TABLE `bookapp` (
   `docID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-
 --
 -- Table structure for table `description`
 --
@@ -43,7 +39,6 @@ CREATE TABLE `description` (
   `Note` varchar(200) NOT NULL,
   `doctorIDdesc` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
 
 --
 -- Table structure for table `doctor`
@@ -59,7 +54,6 @@ CREATE TABLE `doctor` (
   `categorey` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-
 --
 -- Table structure for table `donor`
 --
@@ -74,7 +68,6 @@ CREATE TABLE `donor` (
   `organ` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-
 --
 -- Table structure for table `feedback`
 --
@@ -83,7 +76,6 @@ CREATE TABLE `feedback` (
   `pID` int(11) NOT NULL,
   `feedback` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
 
 --
 -- Table structure for table `patients`
@@ -103,7 +95,6 @@ CREATE TABLE `patients` (
 -- Indexes for dumped tables
 --
 
---
 -- Indexes for table `admin`
 --
 ALTER TABLE `admin`
@@ -155,7 +146,6 @@ ALTER TABLE `patients`
 -- AUTO_INCREMENT for dumped tables
 --
 
---
 -- AUTO_INCREMENT for table `bookapp`
 --
 ALTER TABLE `bookapp`
@@ -189,7 +179,6 @@ ALTER TABLE `patients`
 -- Constraints for dumped tables
 --
 
---
 -- Constraints for table `bookapp`
 --
 ALTER TABLE `bookapp`
